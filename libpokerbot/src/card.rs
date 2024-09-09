@@ -1,9 +1,9 @@
-pub(crate) struct Card {
+pub struct Card {
     rank: CardRank,
     suit: CardSuit,
 }
 
-pub(crate) enum CardRank {
+pub enum CardRank {
     Two,
     Three,
     Four,
@@ -19,7 +19,7 @@ pub(crate) enum CardRank {
     Ace,
 }
 
-pub(crate) enum CardSuit {
+pub enum CardSuit {
     Hearts,
     Diamonds,
     Clubs,
